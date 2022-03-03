@@ -1,0 +1,49 @@
+* {
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #64d3e6, #b9eeeb);
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 6rem;
+  padding: 10px;
+}
+
+.choice:hover {
+  transform: scale(1.5);
+  transition: 300ms;
+}
+
+.score {
+  padding-top: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.result {
+  padding-top: 10px;
+  font-size: 5rem;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
